@@ -1,0 +1,13 @@
+{
+  "name": "yolanda-diefenbach",
+  "version": "1.0.0",
+  "description": "saxophone, singer, composer",
+  "scripts": {
+    "start": "live-server --port=7000"
+  },
+  "author": "Yolanda Diefenbach",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
