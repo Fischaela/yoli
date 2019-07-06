@@ -5,10 +5,11 @@ a {
 }
 
 body {
-  background-image: url("../assets/pano.jpg");
+  /* background-image: url("../assets/pano.jpg"); */
+  background-color: black;
   background-position: 50% 100%;
   background-size: cover;
-  color: black;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 0;
@@ -26,10 +27,11 @@ h2 {
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: rgba(255, 255, 255, 0.4); */
   display: -webkit-flex;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
@@ -40,6 +42,7 @@ h2 {
 }
 
 .links {
+  font-size: 12px;
   list-style: none;
   margin: 30px 0 0 0;
   padding: 0;
@@ -52,4 +55,21 @@ h2 {
 .portrait {
   border-radius: 50%;
   box-shadow: 0 0 10px;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+}
+
+.youtube__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
